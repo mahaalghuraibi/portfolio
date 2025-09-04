@@ -1,0 +1,25 @@
+
+h1{
+  font-size: 55px;
+  justify-self:center;
+  color: red;
+}
+p{
+ font-size: 30px;
+ justify-self: center;
+ color: red;
+}
+.about-box {
+  background-color: #f0f0f0;   /* رمادي فاتح */
+  padding: 20px;              /* مسافة داخلية */
+  border-radius: 10px;        /* زوايا ناعمة */
+  max-width: 400px;           /* عرض المستطيل */
+  margin: 20px auto;          /* يوسّطه بالصفحة */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* ظل خفيف */
+}
+
+.about-box p {
+  margin: 10px 0;   /* مسافة بين الأسطر */
+  font-size: 16px;
+  color: #333;
+}
