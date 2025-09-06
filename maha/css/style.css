@@ -1,25 +1,68 @@
-
-h1{
-  font-size: 55px;
-  justify-self:center;
-  color: red;
-}
-p{
- font-size: 30px;
- justify-self: center;
- color: red;
-}
-.about-box {
-  background-color: #f0f0f0;   /* رمادي فاتح */
-  padding: 20px;              /* مسافة داخلية */
-  border-radius: 10px;        /* زوايا ناعمة */
-  max-width: 400px;           /* عرض المستطيل */
-  margin: 20px auto;          /* يوسّطه بالصفحة */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* ظل خفيف */
+body {
+  padding: 0;
+  height: 100vh;
+  /* يخلي الطول طول الشاشة */
+  background-image: url("https://images.pexels.com/photos/1330218/pexels-photo-1330218.jpeg");
+  /* رابط أو اسم الصورة */
+  background-size: cover;
+  /* تخلي الصورة تغطي الشاشة كاملة */
+  background-position: center;
+  /* تخلي الصورة في المنتصف */
+  text-align: center;
 }
 
-.about-box p {
-  margin: 10px 0;   /* مسافة بين الأسطر */
-  font-size: 16px;
-  color: #333;
+h1 {
+  color: white;
+  font-size: 5vh;
+}
+
+img {
+  width: 25vh;
+  height: 26vh;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+}
+
+hr {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+.line2 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  color: blue;
+}
+
+ul a:link {
+  color: blue;
+  /* اللون للرابط قبل الزيارة */
+}
+
+ul a:visited {
+  color: blue;
+  /* اللون للرابط بعد الزيارة */
+}
+
+ul a:hover {
+  color: lightblue;
+  /* لما تمررين الماوس عليه */
+}
+
+ul a:active {
+  color: navy;
+  /* لحظة الضغط */
 }
